@@ -1,1 +1,2 @@
 # News-Bot
+This Python script uses Selenium, a browser automation tool, to scrape news titles based on a specified topic from Google search results. It defines a function getNews(topic) that launches a Chrome WebDriver, navigates to Google, and performs a search combining the given topic with the word 'News.' The script then locates the news titles using a CSS selector and writes them into a file named "title.txt." 
